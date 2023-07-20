@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import './index.css';
+import { Routes, Route} from 'react-router-dom'
+// import { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+// Pages folder
+import Home from './Pages/Home'
+import Contact from './Pages/Contact'
+import Resume from './Pages/Resume';
+
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    
+        <Routes>
+          <Route path="/" element={<Home />} />
+          {/* <Route path="/projects/:symbol" element={<Project stocks={stocksData} />} /> */}
+          {/* stocks:symbol holds 1 project from projects */}
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
+        </Routes>
+    </>
   );
 }
 

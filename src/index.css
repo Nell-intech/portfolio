@@ -1,13 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+/* creating a variable for colors */
+
+:root {
+  --primary-white: #FFF;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  padding: 0;
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ***************** NAVBAR ***************** */
+
+/* .logo{
+  width: 16.25rem;
+} */
+.contains {
+ margin: 0 .5%;
+}
+
+/* -- MENU LINKS -- */
+.navLink {
+  letter-spacing: 0.075rem;
+  cursor: pointer;
+  border-top: 0.1875rem solid transparent;
+  margin-right: 0.375rem;
+  margin-left: 0.375rem;
+  /* color: var(--primary-white); */
+}
+
+.navLink:active,
+.navLink:active:focus {
+  border-top: 0.1875rem solid yellow;
+}
+
+.navLink:hover {
+  border-top: 0.1875rem solid yellow;
+}
+
+/* ***************** HERO ***************** */
+
+.hero-wrapper {
+  color: white;
+  position: relative;
+  background-image: url(assests/backgroundimg.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  clear: both;
+}
+/* .colImg{
+  background-image: url(assests/backgroundimg3.jpeg);
+  background-size: cover;
+  background-position: center;
+} */
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.main-info h1 {
+  color: var(--primary-white);
+  text-transform: uppercase;
+}
+
+/* header button */
+
+.main-button {
+  border: 1px solid yellow;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: black;
+  font-weight: bold;
+  margin: 2rem;
+  background-color: transparent;
+}
+.left-margin{
+  margin-left: 0;
+}
+.main-button:hover {
+  text-decoration: none;
+  background-color: yellow;
+  transition: 02s ease-in-out;
+}
+
+.name {
+  color: yellow;
+}
+
+.spacer {
+  height: 50px;
+  background-color: var(--primary-white);
+  opacity: 40%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 200px;
+  font-weight: bolder;
+  color: black;
+}
+
+footer {
+  background-color: grey;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.yellow {
+  /* padding-top: 30px;
+  padding-bottom: 30px; */
+  background-color: yellow;
+  opacity: 70%;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.card {
+  margin-top: 30px;
+}
+
+.cardFlex {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+}
+
+.bottomBr {
+  border-bottom: 2px solid black;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  /* font-style: oblique; */
+  font-style: italic;
+}
+
+.resume {
+  /* text-align: center; */
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.block {
+  display: block;
+}
+
+.d-none{
+ text-decoration: none;
+}
+.nopadding{
+  padding: 0;
+}
+.portimg{
+  border: 10px double black;
 }
