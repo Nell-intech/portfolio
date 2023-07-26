@@ -6,6 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Pages/Home'
 import Contact from './Pages/Contact'
 import Resume from './Pages/Resume';
+// components
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 
 
 
@@ -13,7 +16,7 @@ function App() {
 
   return (
     <>
-    
+    <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           {/* <Route path="/projects/:symbol" element={<Project stocks={stocksData} />} /> */}
@@ -21,6 +24,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>
+        <Footer />
     </>
   );
 }

@@ -30,9 +30,7 @@ html {
 /* .logo{
   width: 16.25rem;
 } */
-.contains {
- margin: 0 .5%;
-}
+
 
 /* -- MENU LINKS -- */
 .navLink {
@@ -115,7 +113,7 @@ html {
 }
 
 .spacer {
-  height: 50px;
+  height: 40px;
   background-color: var(--primary-white);
   opacity: 40%;
   text-align: center;
@@ -195,4 +193,25 @@ footer {
 }
 .portimg{
   border: 10px double black;
+  width: 300px;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+}
+.formContainer{
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 2px solid blue;
+  width: 414px;
+  height: 550px;
+  justify-content: center;
+display: flex;
+margin: 40px 50px;
+/* background-color: rgb(208, 205, 248);    */
+}
+.form{
+  width: 100%;
+  margin-top: 25%;
 }

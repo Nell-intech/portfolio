@@ -1,15 +1,15 @@
 export default function Resume() {
     return (
-        <div className="contains">
+        <div>
             <div className="resume">
                 <h1 className="bottomBr bold">JENEIL HENRY</h1>
                 <span>Boston, MA </span>
                 <span>LinkedIn: <a href="https://www.linkedin.com/in/jeneil-henry/">https://www.linkedin.com/in/jeneil-henry/</a> </span>
 
-                <span>**margin**</span>
+                
 
                 <h1 className="bottomBr bold">Full Stack Software Engineer</h1>
-                <span className="bold"> CSS| JAVASCRIPT | CUSTOMER SERVICE ORIENTED</span>
+                <span className="bold"> CSS | JAVASCRIPT | CUSTOMER SERVICE ORIENTED</span>
                 <p>A rising Full Stack Software Engineer experienced in front-end and back-end development. Eager to test limitations. Proficient in scripting languages, design and coding languages. Viewed responsible, adaptive, trustworthy, detail and goal oriented with a positive attitude.</p>
 
                 <h1 className="bottomBr bold">EDUCATION</h1>

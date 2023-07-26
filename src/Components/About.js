@@ -19,7 +19,6 @@ export default function About() {
                     <p className="">I graduated from Software Engineering course called Per Scholas and I am truly grateful for the opportunity to participate in the program because along with building application and learning how to code I had plenty of opportunity to work on group projects where we were constantly sharing and helping one another. This experience allowed me to practice working with other, listening and building larger applications. It was truly a blessing.</p>
                     {/* <p className="">I am currently working on projects daily, adding new tools to my Dev belt and updating my GitHub page so please follow me and check out my work! I am happy that I have come this far and would love to learn more and hopefully change then world one day one function at a time. I look forward to hearing from you and sharing ideas.</p> */}
                     <Link className="links" to={`/contact`}> <button className="left-margin main-button">Let's Connect</button> </Link>  
-                    
                 </Col>
             </Row>
             
