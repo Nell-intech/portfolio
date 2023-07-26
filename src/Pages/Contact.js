@@ -21,7 +21,10 @@ export default function ContactForm() {
     <div>
 
       <div className="main">
-        <div className="formContainer navbar-dark">
+        <div className="formGroupContainer">
+        <div className="formContainerTop"></div>
+        
+        <div className="formContainer">
           <Form className="form" ref={form} onSubmit={sendEmail} >
             <Form.Group className="mb-3" controlId="formGroupName">
               <Form.Label>Name</Form.Label>
@@ -40,8 +43,9 @@ export default function ContactForm() {
             </Button>
             <hr />
           </Form>
-
         </div>
+        </div>
+
       </div>
     </div>
   );

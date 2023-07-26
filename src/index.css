@@ -129,6 +129,7 @@ footer {
   background-color: grey;
   height: 50px;
   margin-top: 20px;
+  position:bottom;
 }
 
 .yellow {
@@ -199,16 +200,29 @@ footer {
 .main{
   display: flex;
   justify-content: center;
+  margin-bottom: 120px;
+}
+.formGroupContainer{
+  border: 2px solid pink;
+  margin: 40px 50px;
+
+}
+.formContainerTop,.formContainer{
+  width: 414px;
+  justify-content: center;
+  display: flex;
+}
+.formContainerTop{
+  height: 60px;
+border: 2px solid blue;
+/* top-left | top-right | bottom-right | bottom-left */
+border-radius: 10px 10px 0 0;
 }
 .formContainer{
   padding-left: 40px;
   padding-right: 40px;
   border: 2px solid blue;
-  width: 414px;
   height: 550px;
-  justify-content: center;
-display: flex;
-margin: 40px 50px;
 /* background-color: rgb(208, 205, 248);    */
 }
 .form{
