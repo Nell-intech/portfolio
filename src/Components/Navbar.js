@@ -10,7 +10,7 @@ import { NavLink } from 'react-router-dom'
 
 export default function navBar() {
   return (
-    <Navbar sticky="top" collapseOnSelect expand="lg" bg="dark" variant="dark" >  
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >  
       <Container className="container">
         {/* <Navbar.Brand className="name" href="/">J.H</Navbar.Brand> */}
         {/* <FontAwesomeIcon icon={faBars} style={{color: "#0564646",}} /> */}

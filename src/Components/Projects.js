@@ -137,10 +137,10 @@ export default function CurrentProject() {
 
         </div>
       </div>
-
+{/* 
       <div className="">
         <div className="spacer"></div>
-      </div>
+      </div> */}
 
     </div>
   );

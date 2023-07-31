@@ -85,3 +85,4 @@ export default function Resume() {
     );
 }
 
+<button className=" br left-margin main-button">Send =)</button>
